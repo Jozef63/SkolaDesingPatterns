@@ -1,21 +1,16 @@
 package sk.euba.tajj.cviko.tracker;
 
-import java.time.Duration;
+import java.time.temporal.ChronoUnit;
 
 public class DisabledTimeTracker implements TimeTracker{
 
     @Override
-    public void start() {
-
-    }
+    public void start() { }
 
     @Override
-    public void stop() {
-
-    }
+    public void stop() { }
 
     @Override
-    public Duration getDuration() {
-        return null;
-    }
+    public void printDuration() { }
+
 }

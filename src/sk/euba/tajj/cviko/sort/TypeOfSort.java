@@ -4,5 +4,6 @@ public enum TypeOfSort {
     BUBBLE_SORT,
     INSERTION_SORT,
     MERGE_SORT,
-    QUICK_SORT;
+    QUICK_SORT,
+    SELECTION_SORT;
 }

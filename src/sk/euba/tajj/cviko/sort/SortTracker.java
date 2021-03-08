@@ -2,12 +2,12 @@ package sk.euba.tajj.cviko.sort;
 
 import sk.euba.tajj.cviko.tracker.TimeTracker;
 
-public class TrackableSort implements Sort{
+public class SortTracker implements Sort{
 
     private final Sort sort;
     private final TimeTracker timeTracker;
 
-    public TrackableSort(Sort sort, TimeTracker timeTracker){
+    public SortTracker(Sort sort, TimeTracker timeTracker){
         this.sort = sort;
         this.timeTracker = timeTracker;
     }
@@ -17,7 +17,7 @@ public class TrackableSort implements Sort{
         timeTracker.start();
         sort.sort(arrToSort);
         timeTracker.stop();
-        System.out.println("zoradovanie trvalo: " + timeTracker.getDuration().toMillis() + " milisekund ");
+        timeTracker.printDuration();
         return arrToSort;
     }
 }

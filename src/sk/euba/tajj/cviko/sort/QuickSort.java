@@ -1,19 +1,6 @@
 package sk.euba.tajj.cviko.sort;
 
-import sk.euba.tajj.cviko.tracker.TimeTracker;
-
 public class QuickSort implements Sort {
-
-    private final TimeTracker timeTracker;
-    private final boolean reverse;
-
-    public QuickSort(TimeTracker timeTracker, boolean reverse){
-        this.timeTracker = timeTracker;
-        this.reverse = reverse;
-    }
-    public QuickSort(TimeTracker timeTracker){
-        this(timeTracker, false);
-    }
 
     @Override
     public int[] sort(int [] arr) {
