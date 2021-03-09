@@ -40,12 +40,15 @@ public final class CommandLineConfiguration {
         }
         return instance;
     }
+
     public static CommandLineConfiguration getInstance(){
-        return instance == null ? new CommandLineConfiguration() : instance;
+        if (instance == null) {
+            instance = new CommandLineConfiguration();
+        }
+        return instance;
     }
 
     public boolean isReverse() {
-
         return this.reverse;
     }
 

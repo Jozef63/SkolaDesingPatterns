@@ -1,7 +1,6 @@
 package sk.euba.tajj.cviko.io;
 
 import sk.euba.tajj.cviko.configuration.CommandLineConfiguration;
-import sk.euba.tajj.cviko.generator.RandomNumberGenerator;
 import sk.euba.tajj.cviko.sort.Sort;
 
 import java.util.*;

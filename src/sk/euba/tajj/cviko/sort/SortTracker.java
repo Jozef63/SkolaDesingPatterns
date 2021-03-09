@@ -2,7 +2,7 @@ package sk.euba.tajj.cviko.sort;
 
 import sk.euba.tajj.cviko.tracker.TimeTracker;
 
-public class SortTracker implements Sort{
+public class SortTracker implements Sort {
 
     private final Sort sort;
     private final TimeTracker timeTracker;
