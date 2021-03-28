@@ -21,7 +21,7 @@ public class IoUtility {
         args.put("trackTime", scanner.nextLine());
 
         if (Boolean.valueOf(args.get("trackTime"))){
-            System.out.println("v akej jednotke si prajete merat cas (SECONDS, MILLIS, NANOS): ");
+            System.out.println("v akej jednotke si prajete merat cas (SECONDS, MILLIS, NANOS): " + "");
             args.put("unit", scanner.nextLine());
         }
 
@@ -31,7 +31,7 @@ public class IoUtility {
 
     public static String getSortType(){
         System.out.println("akou metodou chcete zoradit pole? (BUBBLE_SORT, MERGE_SORT," +
-                "INSERTION_SORT, QUICK_SORT, SELECTION_SORT) :");
+                "INSERTION_SORT, QUICK_SORT, SELECTION_SORT) :" + "");
         return scanner.nextLine();
     }
 
