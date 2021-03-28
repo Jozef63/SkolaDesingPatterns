@@ -8,7 +8,9 @@ Architektúra aplikácie je tvorená pomocou viacerých návrhových vzorov, kto
 
 ### Interface a Implementacie
 
-Vytvorili sme rozhranie Sort s jednou metodou sort, jednotlivé implementácie rozhrania (BubbleSort, MergeSort atď.) môžeme použiť na zoraďovanie pola 
+
+
+Vytvorili sme rozhranie Sort s jednou metodou sort, jednotlivé implementácie rozhrania (BubbleSort, MergeSort atď.) môžeme použiť na zoraďovanie pola.
 
 ### Factory
 
