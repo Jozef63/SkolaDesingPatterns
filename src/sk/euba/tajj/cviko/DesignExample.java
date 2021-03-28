@@ -19,7 +19,7 @@ public class DesignExample {
         } catch (IllegalArgumentException ex){
             System.err.println("zadali ste nespravny typ zoradovania !");
             System.err.println("dostupne typy su : " + IoUtility.arrayToString(TypeOfSort.values()));
-            throw new IllegalArgumentException("Nespravny typ zoradovania");
+            throw new IllegalArgumentException("Nespravny typ zoradovania !");
         }
         int arr[] = IoUtility.getInputArray();
         printResults(sort, arr);

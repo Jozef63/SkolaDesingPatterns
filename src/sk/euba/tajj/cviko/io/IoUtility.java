@@ -9,18 +9,22 @@ import java.util.stream.IntStream;
 public class IoUtility {
     private static final Scanner scanner = new Scanner(System.in);
     public static Map<String, String> getUserConfiguration() {
+
         Map<String, String> args = new HashMap<>();
         System.out.println("zadajte prosim pole ktore chcete zoradit (cele cisla oddelene ciarkou) \r\n" +
-                "ak zadate iba jednu hodnotu bude vygenerovane nahodne pole o dlzke danej hodnoty:");
+                "ak zadate iba jednu hodnotu bude vygenerovane nahodne pole o dlzke danej hodnoty: ");
         args.put("pole", scanner.nextLine());
-        System.out.println("zadajte prosim ci chcete pole zoradit zostupne (true/false) : ");
+        System.out.println("zadajte prosim ci chcete pole zoradit zostupne (true/false): ");
         args.put("reverse", scanner.nextLine());
         System.out.println("zadajte prosim ci chcete merat cas (true/false) : ");
         args.put("trackTime", scanner.nextLine());
+
         if (Boolean.valueOf(args.get("trackTime"))){
             System.out.println("v akej jednotke si prajete merat cas (SECONDS, MILLIS, NANOS): ");
             args.put("unit", scanner.nextLine());
         }
+
+
         return args;
     }
 
