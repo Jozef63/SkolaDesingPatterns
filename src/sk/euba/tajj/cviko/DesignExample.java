@@ -14,7 +14,7 @@ public class DesignExample {
     public void run() {
         CommandLineConfiguration.initWithArgs(IoUtility.getUserConfiguration());
         Sort sort = null;
-        System.out.println("");
+
         try {
             sort = SortFactory.getSortingImplementation(TypeOfSort.valueOf(IoUtility.getSortType()));
         } catch (IllegalArgumentException ex){
