@@ -1,6 +1,6 @@
 # SkolaDesingPatterns
 
-Aplikácia zoradí pole celých čísel, užívateľ si môže zvoliť z viacerých metód zoraďovania, a môže si takisto vybrať či chce odmerať čas, za ktorý sa danej metóde zoraďovania podarí zoradiť pole.
+Aplikácia zoradí pole celých čísel, užívateľ si môže zvoliť z viacerých metód zoraďovania, a môže si takisto vybrať či chce odmerať čas, za ktorý sa danej metóde zoraďovania podarí zoradiť pole
 
 ## Abstrakcia a Polymorfizmus
 
@@ -33,6 +33,7 @@ SortTracker zaobaluje implementáciu Sort a pridáva jej novú funkcionalitu (de
 Takéto jednoduché a bezpečné pridanie novej dekorácie ku fungovaniu zoraďovania je možné vďaka princípom abstrakcie a polymorfizmu. 
 
 V triede SortTracker abstrahujeme od konkrétnej implementácie a objekt Sort sort sa správa polymorfne.
+
 
 ```Java
 public SortTracker(Sort sort, TimeTracker timeTracker){
