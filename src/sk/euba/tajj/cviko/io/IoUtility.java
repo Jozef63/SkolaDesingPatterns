@@ -13,7 +13,7 @@ public class IoUtility {
         System.out.println("zadajte prosim pole ktore chcete zoradit (cele cisla oddelene ciarkou) \r\n" +
                 "ak zadate iba jednu hodnotu bude vygenerovane nahodne pole o dlzke danej hodnoty:");
         args.put("pole", scanner.nextLine());
-        System.out.println("zadajte prosim ci chcete pole zoradit zostupne (true/false) : ");
+        System.out.println("");
         args.put("reverse", scanner.nextLine());
         System.out.println("zadajte prosim ci chcete merat cas (true/false) : ");
         args.put("trackTime", scanner.nextLine());
