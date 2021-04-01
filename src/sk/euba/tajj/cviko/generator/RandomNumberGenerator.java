@@ -4,7 +4,7 @@ import java.util.concurrent.ThreadLocalRandom;
 
 public class RandomNumberGenerator {
     public static int [] generate(int n){
-        System.out.println("generujem nahodnych " + n + "cisiel");
+        System.out.println("Generujem nahodnych " + n + "cisiel.");
         int [] arr = new int[n];
         for(int i = 0; i<n; i++){
             arr[i]= ThreadLocalRandom.current().nextInt(10000);
